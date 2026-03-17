@@ -148,6 +148,11 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+.heading-lg span {
+    display: inline-block;
+    white-space: nowrap;
+}
+
 .heading-md {
     font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: 700;
@@ -375,6 +380,7 @@ a {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 10px 30px rgba(79, 172, 254, 0.3);
     margin-top: var(--space-sm);
+    white-space: nowrap;
 }
 
 .cta-btn:hover {
