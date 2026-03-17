@@ -15,8 +15,8 @@ define('PRODUCT_PRICE', 3000); // JPY
 define('CURRENCY', 'jpy');
 
 // Email Settings
-define('ADMIN_EMAIL', 'admin@example.com'); // 管理者通知先
-define('FROM_EMAIL', 'no-reply@example.com'); // 送信元
+define('ADMIN_EMAIL', 'seminar@marketingdesign.jp'); // 管理者通知先
+define('FROM_EMAIL', 'seminar@marketingdesign.jp'); // 送信元
 define('FROM_NAME', '自律思考AIエージェント事務局');
 
 // Site URL (Automatically detect for redirects)
